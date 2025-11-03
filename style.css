@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(70, 159, 112);
+    margin: 4px;
+}
+
+.navbar {
+    background-color: rgb(44, 101, 70);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.navbar > div {
+    padding: 9px;
+    font-family: Bangla MN;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navigation > a {
+    padding-left: 9px;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation > a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.756)
+}
+
+.footer {
+    background-color: rgb(44, 101, 70);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.content {
+    height: 1000px;
+}
